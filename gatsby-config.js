@@ -6,12 +6,12 @@
 
 module.exports = {
   siteMetadata: {
-    title: "WebDev Portfolio",
+    title: "WebDev",
     description: "This is WebDev Portfolio Site",
-    author: "@webdev",
-    twitterUsername: "@john_smilga",
-    image: "/twitter-img.png",
-    siteUrl: "https://testing-strapi-gatsby-build.netlify.app",
+    author: "@awais",
+    twitterUsername: "@Chaudha16921397",
+    image: "/hero-img.png",
+    siteUrl: "https://awais-portfolio.netlify.app",
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -25,17 +25,17 @@ module.exports = {
         path: `${__dirname}/src/assets/`,
       },
     },
-    // {
-    //   resolve: `gatsby-source-strapi`,
-    //   options: {
-    //     apiURL: `http://localhost:1337`,
-    //     queryLimit: 1000, // Default to 100
-    //     // contentTypes: [`jobs`, `projects`, `blogs`, ],
-    //     //singleTypes:[`about` ]
-    //     contentTypes: [`jobs`, `projects`, `blogs`],
-    //     singleTypes: [`about`],
-    //   },
-    // },
+    {
+      resolve: `gatsby-source-strapi`,
+      options: {
+        apiURL: `http://localhost:1337`,
+        queryLimit: 1000, // Default to 100
+        // contentTypes: [`jobs`, `projects`, `blogs`, ],
+        //singleTypes:[`about` ]
+        contentTypes: [`jobs`, `projects`, `blogs`],
+        singleTypes: [`about`],
+      },
+    },
     // {
     //   resolve: `gatsby-plugin-prefetch-google-fonts`,
     //   options: {

@@ -11,27 +11,27 @@ const data = [
   {
     id: 1,
     icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
-    url: "https://www.twitter.com",
+    url: "https://www.facebook.com/awais.chaudhary.98096",
   },
   {
     id: 2,
     icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    url: "https://www.twitter.com",
+    url: "https://www.linkedin.com/in/awais-raza-231171122/",
   },
   {
     id: 3,
     icon: <FaDribbbleSquare className="social-icon"></FaDribbbleSquare>,
-    url: "https://www.twitter.com",
+    url: "https://dribbble.com/awais512",
   },
   {
     id: 4,
     icon: <FaBehanceSquare className="social-icon"></FaBehanceSquare>,
-    url: "https://www.twitter.com",
+    url: "https://www.behance.net/awaisraza4",
   },
   {
     id: 5,
     icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
-    url: "https://www.twitter.com",
+    url: "https://twitter.com/Chaudha16921397",
   },
 ]
 const links = data.map(link => {
